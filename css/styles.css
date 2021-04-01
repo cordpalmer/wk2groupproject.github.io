@@ -1,0 +1,82 @@
+
+
+@font-face {
+    font-family: 'teaspoonregular';
+    src: url('teaspoon-webfont.woff2') format('woff2'),
+         url('teaspoon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-image: url(../image/abstractPic.jpg)
+}
+
+h1 {
+    font-family: 'teaspoonregular', verdana, sans-serif;
+    
+    font-size: 2em;
+
+}
+
+h3 {
+    font-family: 'teaspoonregular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+.fonts {
+    color: orange;
+    font-family: 'Comic sans ms';
+    font-size: 1.5em;
+    font-weight: italic;
+    font-weight: bold;
+
+}
+.colors {
+    color: red;
+    font-weight: bold;
+
+}
+.more {
+    color: blue;
+    text-decoration: underline;
+    border: 1px dashed gray;
+    background-color: #D69BBE;
+}
+.backgrounds {
+    color: green;
+    font-family: trebuchet MS, 1.25em;
+    font-weight: bold;
+    
+}
+#peace-list {
+    list-style-image: url(../image/peaceSign.png);
+}
+main#outerwrapper {
+    width: 650px;
+    background-color: #E7DBF6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 175px;
+    background-color: #E7DBF6;
+    float: left;
+}
+
+article {
+    margin-left: 175px;
+    background-color: white;
+    padding: 10px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
